@@ -1,0 +1,93 @@
+<html>
+  <head>
+<link rel="stylesheet" href="project.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="project.js"></script>
+
+<title>Document</title>
+
+<link rel="stylesheet" href="CreateJournal.html">
+</head>
+
+<body>
+
+  <div class="top" id = "top">
+    <span  onclick="openBar()">&#9776; </span>   
+    <a href="#" class="logo">Secrets</a>
+   
+    <div class="topRight">
+      <img id = "profilepic" src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png" alt="profilePicture">
+      <a class="Home" href="Project.html">Home</a>
+      <a href="loginpage.html">Log Out</a>
+     
+    </div>
+  </div>
+
+</div>
+
+<div id="myBar" class="contentBarnav">
+    <a class="close" onclick="closeBar()">&times;</a>
+    <a href="CreateJournal.html">Create Journal</a></li>
+    &nbsp;
+    <a href="customization.html">Customize Profile</a></li>
+    &nbsp;
+    <a href="mysetting.html">Settings</a></li>
+    &nbsp;
+    <a href=#></a></li>
+</div>
+<div id="mainContent">
+
+</div>
+
+  <div id="main">
+    <h1 id = "trial">Project</h1>
+
+    <!-- <button onclick="trialbehind()"> triallll</button> -->
+  </div>
+
+  <div class = "JWrite">
+  <h2 id = Rtitle >
+
+  </h2>
+
+  <p id = "JEntry" >
+
+
+  </p>
+
+  <p id = "kpoint" >
+
+
+  </p>
+
+  <p id = "anote" >
+
+  </p>
+
+  <div id ="deletebtn">
+    
+  </div>
+</div>
+
+
+<!-- Remiders -->
+
+<button class="open-button" onclick="openForm()">Set Reminder</button>
+
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h1>reminder</h1>
+
+    <label for="email"><b>title</b></label>
+    <input id = "remtitle" type="text" placeholder="Add a title" name="email" required>
+
+    <label for="psw"><b>time</b></label>
+    <input id = "remtime" type="number" placeholder="Set a time for your reminder(minutes)" name="psw" required>
+    <textarea id = "remnotes" name="Notes" cols="30" rows="15" id="rem"> "Type your notes here"</textarea>
+
+    <button type="button" class="btn" onclick="reminder()">set the reminder</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+</body>
+</html>

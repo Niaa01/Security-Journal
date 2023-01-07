@@ -1,0 +1,75 @@
+<html>
+
+<head>
+<title> Secrets </title>
+<link rel="stylesheet" href="project.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="project.js"></script>
+</head>
+
+<body>
+
+
+ 
+    <div class="top"  id = "top">
+        <span  onclick="openBar()">&#9776; </span>   
+        <a href="#" class="logo">Secrets</a>
+       
+        <div class="topRight">
+            <img id = "profilepic" src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png" alt="profilePicture">
+          <a class="Home" href="Project.html">Home</a>
+          <a href="loginpage.html">Log Out</a>
+         
+        </div>
+      </div>
+
+    </div>
+    
+    <div id="myBar" class="contentBarnav">
+        <a class="close" onclick="closeBar()">&times;</a>
+        <a href= "CreateJournal.html">Create Journal</a></li>
+        &nbsp;
+        <a href= "customization.html">Customize Profile</a></li>
+        &nbsp;
+        <a href= "mysetting.html">Settings</a></li>
+        &nbsp;
+        <a href=#></a></li>
+    </div>
+    <div id="mainContent">
+        <div id="createj">
+            <div class="container">
+                <input id= "Reflectiontitle" type="text" value="Reflection title">
+                <br>
+              
+                <textarea name="Journalentry" id="journalentry" cols="50" rows="20" > "Type your journal entry here"</textarea>
+            
+            
+                <br>
+                <input id = "Keypoints" type="text" value="Key Points">
+                <br>
+                <textarea name="authornote" id="authornote" cols="50" rows="10"> "Type the Authors note" </textarea>
+                <br>
+            
+            </div>  
+                
+            <div class="colorBox">
+                <input class = "chck" type="checkbox" id ="red" name="red" value="red" onclick = uncheckbtns(this)  checked = true>red
+                <input class = "chck" type="checkbox" id ="blue" name="blue" value="blue" onclick = uncheckbtns(this)>blue
+                <input class = "chck" type="checkbox" id ="yellow" name="yellow" value="yellow" onclick = uncheckbtns(this)>yellow
+                <input class = "chck" type="checkbox" id ="green" name="green" value="green" onclick = uncheckbtns(this)>green
+                
+            
+                <button class="save" onclick="SubmitJ()">Submit</button>
+            </div>
+            
+            </div>
+            
+            <div id = "read"></div>
+
+    </div>
+   
+
+</body>
+</html>
+
+

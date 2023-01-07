@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="project.js"></script>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+
+ 
+    <div class="top" id="top">
+        <span  onclick="openBar()">&#9776; </span>   
+        <a href="#" class="logo">Secrets</a>
+       
+        <div class="topRight" id = "topRight">
+          <img id = "profilepic" src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png" alt="profilePicture">
+          <a class="Home" href="Project.html">Home</a>
+          <a href="loginpage.html">Log Out</a>
+         
+        </div>
+      </div>
+
+    </div>
+    
+    <div id="myBar" class="contentBarnav">
+        <a class="close" onclick="closeBar()">&times;</a>
+        <a href="CreateJournal.html">Create Journal</a></li>
+        &nbsp;
+        
+        <a href="customization.html">Customize Profile</a></li>
+        &nbsp;
+        <a href="mysetting.html">Settings</a></li>
+        &nbsp;
+        <a href=#></a></li>
+    </div>
+    <div id="mainContent">
+      <form action="#">
+        <div class="container" id = "container">
+        
+          <h1>Settings</h1>
+          <p> Update User Information</p>
+          <hr>
+         
+          <label for="username"> Username</label>
+
+          <input  id = "userset" type="text" placeholder="Enter New Username">
+    
+          <label for="password"> Password</label>
+
+          <input id = "passset" type="password" placeholder="Enter New Password">
+    
+          <label for="Confirm"> Confirm Password</label>
+
+          <input  id = "passreset" type="password" placeholder="Confirm Password">
+
+          <hr>
+         
+          <button type="submit" class="save" onclick="settings()">Save Changes</button>
+    
+          <div class="slogan">
+            <p> Create  A Home For Your Thoughts</p>
+          </div>
+
+    </div>
+   
+
+</body>
+</html>
+
